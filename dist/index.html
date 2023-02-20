@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Gema</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="dashboard-container">
+  <div class="sidebar">
+      <div class="sidebar-avatar">
+        <div class="sidebar-avatar-photo avatar"></div>
+        <div class="sidebar-avatar-user">
+          <span class="sidebar-avatar-name">Gema de Rus</span>
+          <i class="arrow bottom"></i>
+        </div>
+      </div>
+      <div class="sidebar-menu main">
+        <h3 class="sidebar-title">Main</h3>
+        <ul class="sidebar-items">
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-home icon-sidebar"></i>
+              <span class="sidebar-link-concept">home</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-briefcase icon-sidebar"></i>
+              <span class="sidebar-link-concept">jobs</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-file-text-o icon-sidebar"></i>
+              <span class="sidebar-link-concept">resumes</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-thumb-tack icon-sidebar"></i>
+              <span class="sidebar-link-concept">task</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-calendar icon-sidebar"></i>
+              <span class="sidebar-link-concept">calendar</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-menu admin">
+        <h3 class="sidebar-title">Admin</h3>
+        <ul class="sidebar-items">
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-users icon-sidebar"></i>
+              <span class="sidebar-link-concept">user</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-map-marker icon-sidebar"></i>
+              <span class="sidebar-link-concept">locations</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-sitemap icon-sidebar"></i>
+              <span class="sidebar-link-concept">workflows</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-file-o icon-sidebar"></i>
+              <span class="sidebar-link-concept">jobboards</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+              <i class="fa fa-share-alt icon-sidebar"></i>
+              <span class="sidebar-link-concept">social</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-menu admin">
+        <h3 class="sidebar-title">Categories</h3>
+        <ul class="sidebar-items">
+          <li class="sidebar-item">
+            <label class="field-checkbox is-yellow">
+              <input class="checkbox" type="checkbox" />
+              <i class="checkbox-tip"></i> Administrative
+            </label>
+          </li>
+          <li class="sidebar-item">
+            <label class="field-checkbox is-blue">
+              <input class="checkbox" type="checkbox" />
+              <i class="checkbox-tip"></i> Design
+            </label>
+          </li>
+          <li class="sidebar-item">
+            <label class="field-checkbox is-pink">
+              <input class="checkbox" type="checkbox" />
+              <i class="checkbox-tip"></i> Executive
+            </label>
+          </li>
+          <li class="sidebar-item">
+            <label class="field-checkbox is-green">
+              <input class="checkbox" type="checkbox" />
+              <i class="checkbox-tip"></i> Human Resource
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <div class="content">
+      <ul class="toolbar">
+        <li class="toolbar-item">
+          <button class="button button-toolbar">
+            <i class="icon-content icon-hamburguer fa fa-bars"></i>
+          </button>
+        </li>
+        <li class="toolbar-item long">
+          <input type="text" class="field-text field-text-search" value="Search for a job, task o resume"></input>
+        </li>
+        <li class="toolbar-item">
+          <button class="button button-toolbar">
+            <i class="icon-content icon-user fa fa-user-plus"></i>
+          </button>
+        </li>
+        <li class="toolbar-item">
+          <button class="button button-toolbar">
+            <i class="icon-content icon-calendar fa fa-calendar-times-o"></i>
+          </button>
+        </li>
+        <li class="toolbar-item border-right">
+          <button class="button button-toolbar">
+            <i class="icon-content icon-grid toolbar-item-icon fa fa-th"></i>
+          </button>
+        </li>
+      </ul>
+      <div class="header">
+        <div class="header-intro"> 
+          <div class="header-left">
+            <h1 class="header-left-title">Customer Service Representative</h1>
+            <i class="fa fa-map-marker icon-content"></i>
+            <span class="header-left-city">San Francisco, CA</span>
+            <a class="header-left-link" href="#">Preview this post</a>
+          </div>
+          <ul class="header-right">
+            <li class="header-right-item">
+              <button class="button button-header-right-item-open">open</button>
+            </li>
+            <li class="header-right-item">
+              <button class="button button-header-right-item">
+                <i class="icon-content fa fa-flag"></i>
+              </button>
+            </li>
+            <li class="header-right-item">
+              <button class="button button-header-right-item">
+                <i class="icon-content fa fa-pencil"></i>
+              </button>
+            </li>
+            <li class="header-right-item">
+              <button class="button button-header-right-item">
+                <i class="icon-content fa fa-trash"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <ul class="header-navigation">
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-item-link">summary</a>
+          </li>
+        </ul>
+      </div>
+      <div class="data-information">
+        <div class="info">
+          <div class="graphic-circles">
+            <ul class="group-circles">
+              <li class="group-circle-item">
+                <div class="circle circle-one"></div>
+                <div class="circle-description">
+                  <span class="circle-numbers">3,150</span>
+                  <h3 class="circle-concept">applicants</h3>
+                </div>
+              </li>
+              <li class="group-circle-item">
+                <div class="circle circle-two"></div>
+                <div class="circle-description">
+                  <span class="circle-numbers">1,546</span>
+                  <h3 class="circle-concept">interviews</h3>
+                </div>
+              </li>
+              <li class="group-circle-item">
+                <div class="circle circle-three"></div>
+                <div class="circle-description">
+                  <span class="circle-numbers">912</span>
+                  <span class="circle-concept">fordwards</span>
+                </div>
+              </li> 
+            </ul>
+            <h3 class="rounded">
+              <span class="totals-concept">totals</span>
+              <span class="totals-results">Out of 5,231 views</span>
+            </h3>
+          </div>
+          <div class="graphic-group">
+            <div class="graphic">
+              <ul class="graphic-numbers">
+                <li>500</li>
+                <li>400</li>
+                <li>300</li>
+                <li>200</li>
+                <li>100</li>
+                <li>0</li>
+              </ul>
+              <ul class="graphic-bars">
+                <li class="graphic-bar ten-percent" data-day="M"></li>
+                <li class="graphic-bar thirty-percent" data-day="T"></li>
+                <li class="graphic-bar fifty-percent" data-day="W"></li>
+                <li class="graphic-bar sixty-percent" data-day="T"></li>
+                <li class="graphic-bar ten-percent" data-day="F"></li>
+                <li class="graphic-bar fifty-percent" data-day="S"></li>
+                <li class="graphic-bar thirty-percent" data-day="S"></li>
+                <li class="graphic-bar fifty-percent" data-day="M"></li>
+                <li class="graphic-bar ten-percent" data-day="T"></li>
+                <li class="graphic-bar sixty-percent" data-day="W"></li>
+                <li class="graphic-bar thirty-percent" data-day="T"></li>
+                <li class="graphic-bar ten-percent" data-day="F"></li>
+              </ul>
+            </div>
+            <div class="graphic-title">
+              <h3 class="rounded">APPLICANT DAYS </h3>
+            </div>
+          </div>
+        </div>
+        <div class="border-arrow">
+          <button class="button arrow top button-border-arrow"></button>
+        </div>
+        <div class="data-user">
+          <dl class="job-description-table">
+            <dt class="job-description-table-item header">job description</dt>
+            <dd class="job-description-table-item header">edit</dd>
+            <dt class="job-description-table-item concept">position title</dt>
+            <dd class="job-description-table-item definition">frontend developer</dd>
+            <dt class="job-description-table-item concept">location</dt>
+            <dd class="job-description-table-item definition">madrid</dd>
+            <dt class="job-description-table-item concept">employment type</dt>
+            <dd class="job-description-table-item definition">full time</dd>
+            <dt class="job-description-table-item concept">experience</dt>
+            <dd class="job-description-table-item definition">junior</dd>
+            <dt class="job-description-table-item concept">status</dt>
+            <dd class="job-description-table-item definition">working as freelance</dd>
+            <dt class="job-description-table-item concept">description</dt>
+            <dd class="job-description-table-item definition">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda dolorum, sed facilis. Hic quis ipsam maxime sit doloremque ex, corrupti ad. Animi ad nisi error natus, quo, soluta. Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda dolorum, sed facilis.</dd>
+            <dt class="job-description-table-item concept align-middle">hiring lead</dt>
+            <dd class="job-description-table-item definition align-middle">
+              <div class="job-descrition-table-item-avatar avatar"></div>
+              <span>Gema de Rus</span>
+            </dd>
+            <dt class="job-description-table-item concept">approved salary</dt>
+            <dd class="job-description-table-item definition salary">30.000 €</dd>
+          </dl>
+          <div class="action-sidebar">
+            <div class="action-sidebar-social">
+              <a href="#" class="button-social social-link facebook">
+                <i class="fa fa-facebook icon-action-sidebar"></i>
+                Post to Facebook
+              </a>
+              <a href="#" class="button-social social-link twitter">
+                <i class="fa fa-twitter icon-action-sidebar"></i>
+                Tweet this Job
+              </a>
+              <a href="#" class="button-social social-link linkedin">
+                <i class="fa fa-linkedin-square icon-action-sidebar"></i>
+                Post to Linkedin
+              </a>
+            </div>
+            <ul class="action-sidebar-send">
+              <li>
+                <i class="fa fa-globe"></i>
+                <h3 class="action-sidebar-send-title">Link to this job</h3>
+                <span class="action-sidebar-send-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                <div class="field-group">
+                  <input type="text" class="field-text field-text-action-sidebar" value="http://gemaderus.com">
+                  <button class="field-button">Copy</button>
+                </div> 
+              </li>
+              <li>
+                <i class="fa fa-floppy-o"></i>
+                <h3 class="action-sidebar-send-title">Use the Button Widget</h3>
+                <span class="action-sidebar-send-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                <div class="field-group">
+                  <input type="text" class="field-text field-text-action-sidebar" value="http://gemaderus.com">
+                  <button class="field-button">Copy</button>
+                </div>
+              </li>
+              <li>
+                <i class="fa fa-paper-plane"></i>
+                <h3 class="action-sidebar-send-title">Upload Resumes by Email</h3>
+                <span class="action-sidebar-send-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                <div class="field-group">
+                  <input type="text" class="field-text field-text-action-sidebar" value="http://gemaderus.com">
+                  <button class="field-button">Copy</button>
+                </div>
+              </li>
+            </ul>
+          </div>  
+        </div>
+      </div> 
+    </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
