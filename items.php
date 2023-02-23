@@ -107,10 +107,9 @@ if(isset($_GET['search']) && ($_GET['search'] != '')){
 <?php require 'inc/head.php'; ?>
 </head>
 <body>
-	<?php require 'inc/header.php'; ?>
+		<?php require 'inc/header.php'; ?>
 		<div class="info">
 	<div id="main-wrapper">
-		
 
 		<div class="wrapper-pad">
 			<h2>Productos</h2>
@@ -154,11 +153,12 @@ if(isset($_GET['search']) && ($_GET['search'] != '')){
 			<table border="1" rules="rows" id="items">
 				<thead>
 					<tr>
+						<td width="5%"><input type="checkbox" name="select-all" /></td>
 						<td width="6%">ID</td>
-						<td width="15%">Producto</td>
-						<td width="10%">Categoría</td>
-						<td width="8%">Cantidad</td>
-						<td width="8%">Precio</td>
+						<td width="30%">Producto</td>
+						<td width="20%">Categoría</td>
+						<td width="12%">Cantidad</td>
+						<td width="14%">Precio</td>
 						<td width="15%">Acciones</td>
 					</tr>
 				</thead>
@@ -168,7 +168,7 @@ if(isset($_GET['search']) && ($_GET['search'] != '')){
 					while($item = $items->fetch_object()) {
 ?>
 					<tr data-type="element" data-id="<?php echo $item->id; ?>">
-						
+						<td><input type="checkbox" name="chbox" value="<?php echo $item->id; ?>" /></td>
 						<td class="hover" data-type="id"><?php echo $item->id; ?></td>
 						<td class="hover" data-type="name"><?php echo $item->name; ?></td>
 						<td class="hover" data-type="cat"><?php echo $_items->get_category_name($item->category); ?></td>
@@ -216,7 +216,6 @@ if(isset($_GET['search']) && ($_GET['search'] != '')){
 		<div class="clear" style="margin-bottom:40px;"></div>
 		<div class="border" style="margin-bottom:30px;"></div>
 	</div>
-
-</div>
+	</div>
 </body>
 </html>

@@ -42,8 +42,9 @@ if(!$cat->id)
 <?php require 'inc/head.php'; ?>
 </head>
 <body>
-	<div id="main-wrapper">
 		<?php require 'inc/header.php'; ?>
+		<div class="info">
+	<div id="main-wrapper">
 		
 		<div class="wrapper-pad">
 			<h2>Editar categoría</h2>
@@ -70,6 +71,7 @@ if(!$cat->id)
 		
 		<div class="clear" style="margin-bottom:40px;"></div>
 		<div class="border" style="margin-bottom:30px;"></div>
+	</div>
 	</div>
 </body>
 </html>
